@@ -3,6 +3,8 @@ ruby '2.1.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
+gem 'bootstrap-sass', '3.2.0'
+gem 'sprockets'
 
 gem 'rails_12factor',   group: :production
 
@@ -12,7 +14,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'selenium-webdriver'
+  gem 'selenium-webdriver', '2.35.1'
   gem 'capybara'
   gem 'factory_girl_rails'
 end
